@@ -13,7 +13,7 @@ h1{
 	transition: 0.3s;
 	border-radius: 5px; /* 5px rounded corners */
 	background-color: #464746;
-	width: 65%;
+	width: 60%;
 }
 /* On mouse-over, add a deeper shadow */
 .basketball-card:hover {
@@ -26,7 +26,6 @@ h1{
  
 img {
 	border-radius: 5px 5px 0 0;
-	object-position: center;
 }
 
 #slogan{
