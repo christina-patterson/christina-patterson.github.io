@@ -10,10 +10,10 @@ h1{
 .basketball-card {
 	/* Add shadows to create "Card" look*/
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
 	border-radius: 5px; /* 5px rounded corners */
 	background-color: #464746;
-	width: 60%;
+	max-width: 300px;
+	margin:auto;
 }
 /* On mouse-over, add a deeper shadow */
 .basketball-card:hover {
