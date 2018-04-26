@@ -13,8 +13,6 @@ h1{
 	transition: 0.3s;
 	border-radius: 5px; /* 5px rounded corners */
 	background-color: #464746;
-	width:20%;
-	height:100%;
 }
 /* On mouse-over, add a deeper shadow */
 .basketball-card:hover {
