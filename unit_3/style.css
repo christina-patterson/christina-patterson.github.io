@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 body{
 	color:#FF6D08;
 }
 
 h1{
 	color: #2F302F;
+	font-family: 'Permanent Marker', cursive;
 }
 
 /* CREATING THE CARD */
