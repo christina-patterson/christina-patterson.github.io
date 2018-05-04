@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
+
+body{
+	color:#FF6D08;
+	font-family: 'Roboto', sans-serif;
+	background-color: #BBBFBB;
+}
+
+h1{
+	color: #2F302F;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+/* CREATING THE CARD */
+.basketball-card {
+	/* Add shadows to create "Card" look*/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px; /* 5px rounded corners */
+	background-color: #F2F2F2;
+	max-width: 800px;
+}
+/* On mouse-over, add a deeper shadow */
+.basketball-card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* Add padding for card container */
+.basketball-container {
+	padding: 2px 16px;
+}
+ 
+img {
+	border-radius: 5px 5px 0 0;
+}
+
+#slogan{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+#features{
+	font-weight: bold;
+}
