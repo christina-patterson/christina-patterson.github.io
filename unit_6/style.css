@@ -24,7 +24,7 @@ header{
 
 nav {
 	font-size: 1.5em;
-	float: right;
+	float: left;
 }
 nav a {
 	text-decoration: none;
@@ -94,7 +94,7 @@ div {
 	font-size: 1.2em;
 	width: 46%;
 	padding: 2%;
-	display: inline-block;
+	display: block;
 }
  
 img {
