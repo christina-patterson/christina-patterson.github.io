@@ -1,87 +1,92 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
 
 body{
-	color: #404040;
+	background-color: #404040;
+	align-items: center;
+
+	/* background-image: url("images/xyz.png");*/
+	
 	font-family: 'Roboto', sans-serif;
-	background-color: #BBBFBB;
 }
 
-h1{
+main {
+	justify-content: center;
+	text-align: center;
+}
+
+header {
+	margin: 0px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+h1 {
 	color: #2F302F;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 50px;
 	text-align: center;
 }
 
-h2{
+h2 {
 	color: #132840;
 	font-family: 'Roboto', sans-serif;
 }
 
-header{
-	background: #FFED74;
-}
-
-nav {
-	font-size: 1.5em;
-	float: left;
-}
-nav a {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 5px 10px;
+a {
 	text-decoration: none;
+	color: black;
+}
+
+#slogan {
+	font-family: "Roboto", sans-serif;
 	font-size: 1.5em;
 }
 
-nav a: hover{
+.header {
+	overflow: hidden;
+	margin: auto;
+	width: 100%;
+}
+
+.header a {
+	float:left;
+	color: blue;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	border-radius: 4px;
+}
+
+.header a:hover {
 	background-color: white;
+	color: black;
 }
 
-
-#navigation {
-	background: #E8C66A;
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
 }
 
-.column {
+.article {
+	width: 40%;
+	padding: 10px;
+	margin: 5px;
 	float: left;
-	width: 400px;
-	height: 400px;
-	padding: 20px;
-	margin: 0;
-	text-align: left;
 }
 
 #favorites {
-	background: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-	
+	background-color: : #FF530D;
 }
 
 #gameoftheday {
-	background: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-
+	background-color: #E82C0C;
 }
 
  #trending {
-	background: #EB9485;
-	border: 1px black solid;
-	padding: 20px;
-	
-}
-
-
-.clearfix:after {
-	visibility:	hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+	background: #E80C7A;
 }
 
 
@@ -92,33 +97,3 @@ footer {
 	clear: both;
 }
 
-div {
-	background: #FFE2B8;
-	font-size: 1.2em;
-	width: 46%;
-	padding: 2%;
-	display: block;
-}
- 
-img {
-	display: block;
-	margin: 0 auto;
-	width: 480px;
-}
-
-#hero {
-	display: block;
-	width: 100%;
-	margin: 0;
-	/* background: #000000; */
-}
-
-#slogan {
-	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
-}
-
-#features {
-	font-weight: bold;
-}
