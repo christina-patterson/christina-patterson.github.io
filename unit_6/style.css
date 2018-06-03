@@ -1,48 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
 
-body{
+/*body{
 	color: #404040;
 	font-family: 'Roboto', sans-serif;
 	background-color: #BBBFBB;
 }
+*/
 
-h1{
+h1 {
 	color: #2F302F;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 50px;
 	text-align: center;
 }
 
-h2{
+h2 {
 	color: #132840;
 	font-family: 'Roboto', sans-serif;
 }
 
-header{
-	background: #FFED74;
-}
-
-nav {
-	font-size: 1.5em;
-	float: left;
-}
-nav a {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 5px 10px;
-	text-decoration: none;
-	font-size: 1.5em;
-}
-
-nav a: hover{
-	background-color: white;
-}
-
-
-#navigation {
-	background: #E8C66A;
-}
 
 #container {
 	width: 960px;
@@ -69,16 +45,6 @@ nav a: hover{
 }
 
 
-.clearfix:after {
-	visibility:	hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
-
-
 footer {
 	background: #FF957E;
 	text-align: center;
@@ -86,24 +52,3 @@ footer {
 	clear: both;
 }
 
-
-img {
-	display: block;
-	margin: 0 auto;
-	width: 480px;
-}
-
-
-/*
-
-#slogan {
-	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
-}
-
-#features {
-	font-weight: bold;
-}
-
-*/
