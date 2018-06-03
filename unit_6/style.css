@@ -44,6 +44,11 @@ nav a: hover{
 	background: #E8C66A;
 }
 
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
 .article {
 	width: 280px;
 	padding: 10px;
