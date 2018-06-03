@@ -17,43 +17,102 @@ h2{
 	color: #132840;
 	font-family: 'Roboto', sans-serif;
 }
-.header{
+
+header{
 	background: #FFED74;
 }
 
-.nav{
+nav {
+	font-size: 1.5em;
+	float: right;
+}
+nav a {
+	text-decoration: none;
+	color: #000000
+	margin: 1.5em;
+	display: inline-block;
+}
+
+
+#navigation {
 	background: #E8C66A;
 }
 
-.favorites{
+#three_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#favorites {
 	background: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 25%;
 }
 
-.gameoftheday{
+#gameoftheday {
 	background: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	float: none;
+	width: 45%;
 }
 
-.trending{
+#trending {
 	background: #EB9485;
-}
-.footer{
-	background: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 25%;
 }
 
-div{
+
+.clearfix:after {
+	visibility:	hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+footer {
+	background: #FF957E;
+	text-align: center;
+	padding: 1em 0;
+	clear: both;
+}
+
+div {
 	background: #FFE2B8;
+	font-size: 1.2em;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
 }
  
 img {
-	border-radius: 5px 5px 0 0;
+	display: block;
+	margin: 0 auto;
+	width: 480px;
 }
 
-#slogan{
+#hero {
+	display: block;
+	width: 100%;
+	margin: 0;
+	/* background: #000000; */
+}
+
+#slogan {
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
 }
 
-#features{
+#features {
 	font-weight: bold;
 }
