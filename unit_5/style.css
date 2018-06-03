@@ -13,7 +13,10 @@ h1{
 	text-align: center;
 }
 
-/* CREATING THE CARD */
+.header{
+	background: #FFED74;
+}
+
 .basketball-card {
 	/* Add shadows to create "Card" look
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
