@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
 
 body{
-	color:#FF6D08;
+	color:#404040;
 	font-family: 'Roboto', sans-serif;
 	background-color: #BBBFBB;
 }
@@ -35,7 +35,7 @@ h1{
 
 .basketball-card {
 	background: #c0dec5;
-	margin: 4em;
+	margin: 2em;
 	padding: 2em 3em 0 3em;
 }
 
