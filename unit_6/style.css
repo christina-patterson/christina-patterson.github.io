@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
+
+body{
+	color: #404040;
+	font-family: 'Roboto', sans-serif;
+	background-color: #BBBFBB;
+}
+
+h1{
+	color: #2F302F;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2{
+	color: #132840;
+	font-family: 'Roboto', sans-serif;
+}
+.header{
+	background: #FFED74;
+}
+
+.nav{
+	background: #E8C66A;
+}
+
+.favorites{
+	background: #FFC675;
+}
+
+.gameoftheday{
+	background: #E89C6C;
+}
+
+.trending{
+	background: #EB9485;
+}
+.footer{
+	background: #FF957E;
+}
+
+div{
+	background: #FFE2B8;
+}
+ 
+img {
+	border-radius: 5px 5px 0 0;
+}
+
+#slogan{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+#features{
+	font-weight: bold;
+}
