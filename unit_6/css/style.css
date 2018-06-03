@@ -24,13 +24,19 @@ header{
 
 nav {
 	font-size: 1.5em;
-	float: right;
+	float: left;
 }
 nav a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 5px 10px;
 	text-decoration: none;
-	color: #000000
-	margin: 1.5em;
-	display: inline-block;
+	font-size: 1.5em;
+}
+
+nav a: hover{
+	background-color: white;
 }
 
 
@@ -38,36 +44,36 @@ nav a {
 	background: #E8C66A;
 }
 
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
+.column {
+	float: left;
+	width: 400px;
+	height: 400px;
 	padding: 20px;
+	margin: 0;
+	text-align: left;
 }
 
-#left {
+#favorites {
 	background: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
-	float: left;
-	width: 30%;
+	
 }
 
-#right {
+#gameoftheday {
 	background: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
-	float: right;
-	width: 62%;
+
 }
 
-/* #trending {
+ #trending {
 	background: #EB9485;
 	border: 1px black solid;
 	padding: 20px;
-	float: right;
-	width: 25%;
+	
 }
-*/
+
 
 .clearfix:after {
 	visibility:	hidden;
@@ -91,7 +97,7 @@ div {
 	font-size: 1.2em;
 	width: 46%;
 	padding: 2%;
-	display: inline-block;
+	display: block;
 }
  
 img {

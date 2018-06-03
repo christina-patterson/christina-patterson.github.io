@@ -44,34 +44,23 @@ nav a: hover{
 	background: #E8C66A;
 }
 
-.column {
+.article {
+	width: 280px;
+	padding: 10px;
+	margin: 0 10px;
 	float: left;
-	width: 400px;
-	height: 400px;
-	padding: 20px;
-	margin: 0;
-	text-align: left;
 }
 
 #favorites {
-	background: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-	
+	background-color: : #FF530D;
 }
 
 #gameoftheday {
-	background: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-
+	background-color: #E82C0C;
 }
 
  #trending {
-	background: #EB9485;
-	border: 1px black solid;
-	padding: 20px;
-	
+	background: #E80C7A;
 }
 
 
@@ -92,26 +81,15 @@ footer {
 	clear: both;
 }
 
-div {
-	background: #FFE2B8;
-	font-size: 1.2em;
-	width: 46%;
-	padding: 2%;
-	display: block;
-}
- 
+
 img {
 	display: block;
 	margin: 0 auto;
 	width: 480px;
 }
 
-#hero {
-	display: block;
-	width: 100%;
-	margin: 0;
-	/* background: #000000; */
-}
+
+/*
 
 #slogan {
 	font-weight: bold;
@@ -122,3 +100,5 @@ img {
 #features {
 	font-weight: bold;
 }
+
+*/
