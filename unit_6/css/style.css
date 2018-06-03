@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
 
 body{
-	background-color: #404040;
+	background-color: #e8e5e5;
 	align-items: center;
 
 	/* background-image: url("images/xyz.png");*/
@@ -50,7 +50,7 @@ a {
 	text-align: center;
 	padding: 5px;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 20px;
 	line-height: 20px;
 	border-radius: 4px;
 }
