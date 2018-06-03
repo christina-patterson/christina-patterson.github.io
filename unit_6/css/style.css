@@ -38,16 +38,13 @@ nav a {
 	background: #E8C66A;
 }
 
-.column {
-	float: left;
-	width: 400px;
-	height: 400px;
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
 	padding: 20px;
-	margin: 0;
-	text-align: left;
 }
 
-#favorites {
+#left {
 	background: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
@@ -55,7 +52,7 @@ nav a {
 	width: 30%;
 }
 
-#gameoftheday {
+#right {
 	background: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
@@ -63,14 +60,14 @@ nav a {
 	width: 62%;
 }
 
- #trending {
+/* #trending {
 	background: #EB9485;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
 	width: 25%;
 }
-
+*/
 
 .clearfix:after {
 	visibility:	hidden;
