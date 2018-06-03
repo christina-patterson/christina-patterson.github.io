@@ -27,10 +27,16 @@ nav {
 	float: left;
 }
 nav a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 5px 10px;
 	text-decoration: none;
-	color: #000000
-	margin: 1.5em;
-	display: inline-block;
+	font-size: 1.5em;
+}
+
+nav a: hover{
+	background-color: white;
 }
 
 
@@ -51,24 +57,21 @@ nav a {
 	background: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
-	float: left;
-	width: 30%;
+	
 }
 
 #gameoftheday {
 	background: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
-	float: right;
-	width: 62%;
+
 }
 
  #trending {
 	background: #EB9485;
 	border: 1px black solid;
 	padding: 20px;
-	float: right;
-	width: 25%;
+	
 }
 
 
