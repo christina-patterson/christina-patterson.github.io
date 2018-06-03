@@ -17,18 +17,31 @@ h1{
 	background: #FFED74;
 }
 
+.nav{
+	background: #E8C66A;
+}
+
+.aside{
+	background: #FFC675;
+}
+
+.article{
+	background: #E89C6C;
+}
+
+.footer{
+	background: #FF957E;
+}
+
 .basketball-card {
-	/* Add shadows to create "Card" look
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	border-radius: 5px; /* 5px rounded corners 
-	background-color: #F2F2F2;
-	max-width: 800px;
-	*/
 	background: #c0dec5;
 	margin: 4em;
 	padding: 2em 3em 0 3em;
 }
 
+div{
+	background: #FFE2B8;
+}
  
 img {
 	border-radius: 5px 5px 0 0;
