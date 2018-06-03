@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
 
 body{
-	color: #404040;
+	background-color: #404040;
+	align-items: center;
+
+	/* background-image: url("images/xyz.png");*/
+	
 	font-family: 'Roboto', sans-serif;
+}
+
+main {
+	justify-content: center;
+	text-align: center;
+}
+
+header {
+	margin: 0px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 h1 {
@@ -17,16 +33,47 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
 
-#container {
+#slogan {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.5em;
+}
+
+.header {
+	overflow: hidden;
+	margin: auto;
+	width: 100%;
+}
+
+.header a {
+	float:left;
+	color: blue;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	border-radius: 4px;
+}
+
+.header a:hover {
+	background-color: white;
+	color: black;
+}
+
+.wrapper {
 	width: 960px;
 	margin: 0 auto;
 }
 
 .article {
-	width: 280px;
+	width: 40%;
 	padding: 10px;
-	margin: 0 10px;
+	margin: 5px;
 	float: left;
 }
 
