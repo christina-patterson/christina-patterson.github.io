@@ -3,10 +3,9 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
-header h1 {
+h1 {
 	color: #2F302F;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 50px;
@@ -16,10 +15,6 @@ header h1 {
 	background-color: #EEFCFF;
 }
 
-header {
-	padding: 2em;
-	text-align: center;
-}
 
 }
 body{
@@ -37,7 +32,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	border-bottom: 1px solid #555;
+	border-bottom: 2px solid #555;
 }
 
 #intro {
@@ -79,6 +74,37 @@ header {
 .favorites p {
 	margin: 1em 0 0;
 }
+
+.gameoftheday {
+	float: left;
+	width: 33%;
+	padding: 1em;
+}
+
+.gameoftheday img{
+	width: 100%;
+	display: block;
+}
+
+.gameoftheday p {
+	margin: 1em 0 0;
+}
+
+.trending {
+	float: left;
+	width: 33%;
+	padding: 1em;
+}
+
+.trending img{
+	width: 100%;
+	display: block;
+}
+
+.trending p {
+	margin: 1em 0 0;
+}
+
 
 .example {
 	position: relative;
