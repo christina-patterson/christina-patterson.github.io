@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-h1 {
+header h1 {
 	color: #2F302F;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 50px;
@@ -16,6 +16,12 @@ h1 {
 	background-color: #EEFCFF;
 }
 
+header {
+	padding: 2em;
+	text-align: center;
+}
+
+}
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
