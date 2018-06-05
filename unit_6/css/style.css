@@ -33,7 +33,7 @@ header {
 	width: 100%;
 	border-bottom: 1px solid #555;
 }
-/*
+
 #intro {
 	background-repeat: no-repeat;
 	background-position: no-repeat;
@@ -50,7 +50,7 @@ header {
 	line-height: 2em;
 	min-height: 70vh;
 }
-*/
+
 #two_column {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
@@ -223,14 +223,6 @@ h2 {
 }
 
 */
-
-.icon-block {
-	padding: 0 15px;
-}
-
-.icon-block .material-icons {
-	font-size: inherit;
-}
 
 footer {
 	background: #FF957E;
